@@ -42,6 +42,10 @@ The 'nurbs_factory.py' file has some useful functions such as 'make_knot_vector'
 
 A short instruction on how to use functions from pyigalib is found in pyigalib_doc file.
 
+There are a couple fo example solutions in the _figures_ folder, such as one produced with ```p5_iga_helmholtz2d_dirichlet.py``` script.
+
+![Alt text](https://github.com/nikola-m/pyigalib/blob/master/figures/figure_3_p6n20k9-sideview.png "Dirichlet problem for the Helmholtz equation")
+
 Nikola Mirkov
 
 largeddysimulation@gmail.com
