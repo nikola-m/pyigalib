@@ -1,0 +1,22 @@
+Python 2.7.6 (default, Mar 22 2014, 22:59:56) 
+[GCC 4.8.2] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import pyigalib
+>>> print pyigalib.__doc__
+This module 'pyigalib' is auto-generated with f2py (version:2).
+Functions:
+  mid = find_span(p,n,uvec,u,m=(len(uvec)-1))
+  nbasis = basis_funs(p,n,uvec,u,m=(len(uvec)-1))
+  ders = basis_funs_and_derivatives(p,n,uvec,u,d,m=(len(uvec)-1))
+  nb_cpt = basis_funs_cpt(p,n,uvec,ucpt,m=(len(uvec)-1),ncpt=len(ucpt))
+  ders_cpt = basis_funs_and_derivatives_cpt(p,n,uvec,ucpt,d,m=(len(uvec)-1),ncpt=len(ucpt))
+.
+>>>
+
+Ukratko:
+Functions:
+  mid = find_span(p,n,uvec,u,m)
+  nbasis = basis_funs(p,n,uvec,u)
+  ders = basis_funs_and_derivatives(p,n,uvec,u,d)
+  nb_cpt = basis_funs_cpt(p,n,uvec,ucpt)
+  ders_cpt = basis_funs_and_derivatives_cpt(p,n,uvec,ucpt,d)
