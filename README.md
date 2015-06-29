@@ -8,7 +8,7 @@ Basis of the library is Fortran code found in pyigalib.f95 file, which is turned
 f2py -c -m --fcompiler=gnu95 pyigalib pyigalib.f95
 ``` 
 
-The result is pyigalib.so file. I'm using gfortran, therefore I use --fcompiler=gnu95 switch. You can no use pyigalib by importing it in Python:  
+The result is pyigalib.so file. I'm using gfortran, therefore I use --fcompiler=gnu95 switch. You can now use pyigalib by importing it in Python:  
 
 ```python
 from pyigalib imort *
@@ -37,10 +37,11 @@ D = ders[:,1,:]
 D2 = ders[:,2,:]
 ```
 
-The 'nurbs_factory.py' file has some useful function such as 'make_knot_vector' or 'greville' and uses the code found [here](http://nbviewer.ipython.org/gist/dbarbeau/8b5ae150a65ce144a1bb).
+The 'nurbs_factory.py' file has some useful functions such as 'make_knot_vector' or 'greville' and uses the code found [here](http://nbviewer.ipython.org/gist/dbarbeau/8b5ae150a65ce144a1bb).
 
 
 A short instruction on how to use functions from pyigalib is found in pyigalib_doc file.
 
 Nikola Mirkov
+
 largeddysimulation@gmail.com
